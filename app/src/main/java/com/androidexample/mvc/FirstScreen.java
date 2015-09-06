@@ -14,6 +14,12 @@ import android.content.Intent;
 
 public class FirstScreen extends Activity {
 
+	public void save(View view) {
+		UsuarioBiz user = new UsuarioBiz();
+		ReturnEntity re = user.SaveUser(new UsuarioEntity(1,"pepe"),this);
+		String salida = re.Errormessage.toString();
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

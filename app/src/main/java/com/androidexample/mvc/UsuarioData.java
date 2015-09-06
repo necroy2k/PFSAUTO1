@@ -20,12 +20,17 @@ public class UsuarioData{
     }
 
 
-    public ReturnEntity SaveUser(UsuarioEntity usuarioNuevo) {
+    public ReturnEntity SaveUser(UsuarioEntity user) {
         //SQL QUERRY
         return new ReturnEntity();
     }
 
-    public ReturnEntity SaveUsers(ArrayList<UsuarioEntity> Listadeusuarios) {
+    public ReturnEntity SaveUsers(ArrayList<UsuarioEntity> userList) {
+        //SQL QUERRY
+        return new ReturnEntity();
+    }
+
+    public ReturnEntity EditUser(UsuarioEntity userList) {
         //SQL QUERRY
         return new ReturnEntity();
     }

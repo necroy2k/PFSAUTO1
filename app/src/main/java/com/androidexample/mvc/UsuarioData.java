@@ -7,28 +7,26 @@ public class UsuarioData{
     private  ArrayList<ModelProducts> cartProducts = new ArrayList<ModelProducts>();
 
 
-    public ModelProducts getUsuario(int pPosition) {
-
-        //usuario
-        return cartProducts.get(pPosition);
+    public UsuarioEntity getUsuario(String id) {
+        //SQL QUERRY
+        UsuarioEntity usuario = new UsuarioEntity("asd","pepe");
+        return usuario;
     }
 
-    public void setProducts(ModelProducts Products) {
-
-        cartProducts.add(Products);
-
+    public ArrayList<UsuarioEntity> getUsuarioByEvent(String Eventid) {
+        //SQL QUERRY
+        ArrayList<UsuarioEntity> userList = new ArrayList<UsuarioEntity>();
+        return userList;
     }
 
-    public int getCartSize() {
 
-        return cartProducts.size();
-
+    public ReturnEntity SaveUser(UsuarioEntity usuarioNuevo) {
+        //SQL QUERRY
+        return new ReturnEntity();
     }
 
-    public boolean checkProductInCart(ModelProducts aProduct) {
-
-        return cartProducts.contains(aProduct);
-
+    public ReturnEntity SaveUsers(ArrayList<UsuarioEntity> Listadeusuarios) {
+        //SQL QUERRY
+        return new ReturnEntity();
     }
-
 }

@@ -5,19 +5,19 @@ package com.androidexample.mvc;
  */
 public class UsuarioEntity {
 
-    private String nombre;
-    private String id;
+    private int entityID;
+    private String paizoID;
 
-    public UsuarioEntity(String nombre, String id){
-        this.nombre = nombre;
-        this.id = id;
+    public UsuarioEntity(int ID, String paizoID){
+        this.entityID = ID;
+        this.paizoID = paizoID;
     }
 
-    public String getMombre() {
-        return nombre;
+    public String getPaizoID() {
+        return paizoID;
     }
 
-    public String getId() {
-        return id;
+    public int getId() {
+        return entityID;
     }
 }

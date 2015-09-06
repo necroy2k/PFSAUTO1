@@ -1,5 +1,4 @@
 package com.androidexample.mvc;
-
 import java.util.ArrayList;
 
 public class ModelCart{

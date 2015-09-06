@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Programing\PFSAUTO1\app\src\main\res"><file name="ic_launcher" path="D:\Programing\PFSAUTO1\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="D:\Programing\PFSAUTO1\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="D:\Programing\PFSAUTO1\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\Programing\PFSAUTO1\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="firstscreen" path="D:\Programing\PFSAUTO1\app\src\main\res\layout\firstscreen.xml" qualifiers="" type="layout"/><file name="secondscreen" path="D:\Programing\PFSAUTO1\app\src\main\res\layout\secondscreen.xml" qualifiers="" type="layout"/><file name="thirdscreen" path="D:\Programing\PFSAUTO1\app\src\main\res\layout\thirdscreen.xml" qualifiers="" type="layout"/><file path="D:\Programing\PFSAUTO1\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MVC Pattern Basics</string><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string></file><file path="D:\Programing\PFSAUTO1\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file></source><source path="D:\Programing\PFSAUTO1\app\build\generated\res\rs\debug"/><source path="D:\Programing\PFSAUTO1\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="D:\Programing\PFSAUTO1\app\src\debug\res"/></dataSet><mergedItems/></merger>

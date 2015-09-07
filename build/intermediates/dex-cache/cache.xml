@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Necro\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="/home/carubook/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\Programing\PFSAUTO1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-f5f66a8cbc0690c0c3f9f8202d8ac79ea9930911.jar" />
+        <dex dex="/home/carubook/Escritorio/Android/Aplication_0/PFSAUTO1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-3963dbeb5c8f7a252da31a08134bbf3cad192636.jar" />
     </item>
 
 </items>

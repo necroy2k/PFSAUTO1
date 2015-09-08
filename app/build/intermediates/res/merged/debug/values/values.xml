@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Programing/PFSAUTO1/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/carubook/Escritorio/Android/Aplication_0/PFSAUTO1/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">MVC Pattern Basics</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <!-- From: file:/D:/Programing/PFSAUTO1/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/carubook/Escritorio/Android/Aplication_0/PFSAUTO1/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -2,40 +2,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstScreen" 
-    android:orientation="vertical"
-    
-    >
-    
+    tools:context=".FirstScreen"
+
+    android:weightSum="1"
+    android:orientation="vertical">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:textColor="#898989"
+        android:textColor="#890069"
         android:textStyle="bold"
-        android:textSize="16sp"
-        android:text="Shopping Cart" />
-    
-    <LinearLayout 
-        android:layout_width="match_parent"
+        android:textSize="36sp"
+        android:text="Paizo Inc.  "
+        android:layout_gravity="right"
+        android:id="@+id/labelPaizo" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pathfinder Society App   "
+        android:id="@+id/labelSubtitle"
+        android:layout_gravity="right"
+        android:textColor="#880169" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical"
-	    android:id="@+id/linearMain"
-	    >
-	    
-     </LinearLayout>   
-    <Button android:id="@+id/second"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Checkout"
-	/>
+	    android:id="@+id/linearMain">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPathfinderId"
+            android:text="Ingrese su Pathfinder Id"
+            android:textStyle="italic"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <Button android:id="@+id/buttonSignIn"
+               android:layout_width="133dp"
+               android:layout_height="wrap_content"
+               android:text="Sing In"
+            android:layout_gravity="right"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="239dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:onClick="save" />
+        android:text="Ultimos Pathfinders"
+        android:id="@+id/buttonPathfinderId"
+        android:textStyle="bold" />
 
-</LinearLayout><!-- From: file:/D:/Programing/PFSAUTO1/app/src/main/res/layout/firstscreen.xml -->
+</LinearLayout><!-- From: file:/home/carubook/Escritorio/Android/Aplication_0/PFSAUTO1/app/src/main/res/layout/firstscreen.xml -->
